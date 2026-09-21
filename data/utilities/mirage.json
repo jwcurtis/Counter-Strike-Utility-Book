@@ -1,0 +1,40 @@
+{
+    "map": "de_mirage",
+    "displayName": "Mirage",
+    "utilities": [
+        {
+            "id": "mirage-t-a-ramp-jungle-smoke",
+            "name": "A Site Smoke",
+            "type": "smoke",
+            "side": "T",
+            "site": "A",
+
+            "throw": {
+                "type": "jumpthrow",
+                "position": "A Ramp",
+                "description": "Stand on the A Ramp and aim at the top of the building to throw a smoke that lands in Jungle."
+            },
+
+            "landing": {
+                "site": "A",
+                "position": "Jungle"
+            },
+
+            "notes": [
+                "Useful for taking control of A site and cutting off rotations from CTs."
+            ],
+
+            "tags": [
+                "a-site",
+                "smoke",
+                "t-side"
+            ],
+
+            "media": {
+                "image": "assets/maps/mirage/titlecard.png",
+                "video": "https://www.youtube.com/watch?v=example"
+            }
+
+        }
+    ]
+}
